@@ -1,4 +1,8 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+/* Adding beauty modifiers to the site itself here. */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Full-width input fields */
 input[type=text], input[type=password] {
