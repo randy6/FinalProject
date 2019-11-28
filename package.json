@@ -1,0 +1,22 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "A daily planner type thing",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randy6/FinalProject.git"
+  },
+  "author": "Randy Le, Paul Rudinsky, Terry Neza, Jordon Hankins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randy6/FinalProject/issues"
+  },
+  "homepage": "https://github.com/randy6/FinalProject#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
