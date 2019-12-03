@@ -1,5 +1,15 @@
 /* Adding beauty modifiers to the site itself here. */
 
+#Planner.col {
+  width: auto;
+  background-color: black;
+}
+
+#Accounts.col {
+  width: auto;
+  background-color: red;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }

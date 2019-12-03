@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Planner </title>
   <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" />
 </head>
 
 <body>
+  <div id="screen"></div>
 
-  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+  <!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
   <div id="id01" class="modal">
 
@@ -38,9 +40,14 @@
         <span class="psw">Forgot <a href="#">password?</a></span>
       </div>
     </form>
-  </div>
+  </div> -->
 
-  <script>
+  <!-- Javascript sources below -->
+  <script src="node_modules/axios/axios.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script type="module" src="render.js"></script>
+
+  <!-- <script>
     // Get the modal
     var modal = document.getElementById('id01');
 
@@ -50,7 +57,7 @@
         modal.style.display = "none";
       }
     }
-  </script>
+  </script> -->
 
 </body>
 
