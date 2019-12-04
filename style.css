@@ -23,3 +23,13 @@
   right: 0;
   width: 25%;
 }
+
+/* Handle the Days of the Week */
+#Monday.col, #Tuesday.col, #Wednesday.col, #Thursday.col, #Friday.col {
+  width: 15%;
+}
+
+/* Handle the Buttons */
+#Logins.row, #Theme.row {
+  justify-content: center;
+}

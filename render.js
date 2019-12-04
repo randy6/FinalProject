@@ -5,26 +5,60 @@ export const loadBoard = function () {
     return `<div id="Planner-Side" class="split left">
                 <div id="Days-Of-Week" class="container">
                     <div class="row">
-                        <div id="Sunday" class="col">
-                            <h1> Sunday </h1>
-                        </div>
                         <div id="Monday" class="col">
-                            <h1> Monday </h1>
+                            <div id="Title">
+                                <h1> Monday </h1>
+                            </div>
+                            <div id="todo">
+
+                            </div>
+                            <div id="button">
+                                <button type="button" id="edit"> Edit </button>
+                            </div>
                         </div>
                         <div id="Tuesday" class="col">
-                            <h1> Tuesday </h1>
+                            <div id="Title">
+                                <h1> Tuesday </h1>
+                            </div>
+                            <div id="todo">
+
+                            </div>
+                            <div id="button">
+                                <button type="button" id="edit"> Edit </button>
+                            </div>
                         </div>
                         <div id="Wednesday" class="col">
-                            <h1> Wednesday </h1>
+                            <div id="Title">
+                                <h1> Wednesday </h1>
+                            </div>
+                            <div id="todo">
+
+                            </div>
+                            <div id="button">
+                                <button type="button" id="edit"> Edit </button>
+                            </div>
                         </div>
                         <div id="Thursday" class="col">
-                            <h1> Thursday </h1>
+                            <div id="Title">
+                                <h1> Thursday </h1>
+                            </div>
+                            <div id="todo">
+
+                            </div>
+                            <div id="button">
+                                <button type="button" id="edit"> Edit </button>
+                            </div>
                         </div>
                         <div id="Friday" class="col">
-                            <h1> Friday </h1>
-                        </div>
-                        <div id="Saturday" class="col">
-                            <h1> Saturday </h1>
+                            <div id="Title">
+                                <h1> Friday </h1>
+                            </div>
+                            <div id="todo">
+
+                            </div>
+                            <div id="button">
+                                <button type="button" id="edit"> Edit </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -33,15 +67,23 @@ export const loadBoard = function () {
                 <div id="Buttons" class="container">
                     <div class="col">
                         <div id="Logins" class="row">
-                            <h1> Login Button </h1>
+                            <button type="button"> Login </button>
+                            <button type="button"> Sign Up </button>
                         </div>
+                        <br>
                         <div id="Theme" class="row">
-                            <h1> Theme Button </h1>
+                            <button type="button"> Theme Select </button>
                         </div>
                     </div>
                 </div>
             </div>`;
 };
+
+/* Handle Edit Button Press */
+
+/* Handle Save Button Press */
+
+/* Handle Cancel Button Press */
 
 /* Render All */
 export const loadAll = function () {
