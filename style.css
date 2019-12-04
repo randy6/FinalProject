@@ -27,6 +27,8 @@
 /* Handle the Days of the Week */
 #Monday.col, #Tuesday.col, #Wednesday.col, #Thursday.col, #Friday.col {
   width: 15%;
+  text-align: center;
+  border: 2px solid black;
 }
 
 /* Handle the Buttons */
