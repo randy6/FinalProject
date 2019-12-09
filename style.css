@@ -2,22 +2,27 @@
 
 *{
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
+	font-family: Times New Roman;
 }
 
 body {
-	background: linear-gradient(rgba(247, 204, 63, 0.2), rgba(247, 204, 63, 0.2)), url('white-waves.png');
+	background: grey;
 }
-
+#placer {
+	background-color: black;
+}
+#days {
+	display: right;
+}
 #user-input {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	float: right;
 }
 
 h1 {
-	text-align: center; 
-	color: salmon;	
+	text-align: right; 
+	color: #99BADD;	
 }
 
 input, select {
@@ -31,9 +36,10 @@ input, select {
 
 button {
 	width: 250px;
+	height: 250px;
 	margin: 0.5rem;
 	padding: 0.5rem;
-	background: salmon;
+	background: #99BADD;
 	border: none;
 	outline: none;
 	color: white;
@@ -42,21 +48,30 @@ button {
 button:hover {
 	box-shadow: 0 0 20px gray;
 }
+#task {
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box
+}
 
 .day {
-	width: 234px;
-	min-height: 300px;
-	border: 2px solid salmon;
+	width: auto;
+	min-height: 250px;
+	border: 2px solid #99BADD;
 	margin: auto;
 	background: white;
-  box-shadow: 3px 3px 3px #333;
-  display: inline-block;
+  	box-shadow: 2px 2px 2px #333;
+  	display: inline-block;
 }
 
 .day h3 {
 	text-align: center;
-	color: salmon;
-	border-bottom: 3px double salmon;
+	color: #99BADD;
+	border-bottom: 3px double black;
 	width: 200px;
 	margin: 0.5rem auto;
 }
