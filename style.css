@@ -34,7 +34,7 @@ input, select {
 	outline: none;
 }
 
-button {
+#button1 {
 	width: 250px;
 	height: 250px;
 	margin: 0.5rem;
