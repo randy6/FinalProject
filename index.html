@@ -8,13 +8,17 @@
 	<title> Planner </title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" />
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+	<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script>
 		$(function () {
 			let suggestions =
 				[
 					"Doctor",
 					"Appointment",
-					"Homework"
+					"Homework",
+					"Balagadoo"
 				];
 			$("#task").autocomplete({
 				source: suggestions
