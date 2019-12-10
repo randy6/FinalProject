@@ -8,6 +8,19 @@
 	<title> Planner </title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" />
+	<script>
+		$(function () {
+			let suggestions =
+				[
+					"Doctor",
+					"Appointment",
+					"Homework"
+				];
+			$("#task").autocomplete({
+				source: suggestions
+			});
+		});
+	</script>
 </head>
 
 <body>
