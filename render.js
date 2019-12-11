@@ -69,13 +69,3 @@ function popOffItem() {
 	}
 }
 
-$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=CHAPEL HILL&units=imperial&APPID=bf1d771756fdc7d1248bad881f19f13f", function (data) {
-	console.log(data);
-	// http://openweathermap.org/img/q/04n.png
-	let icon = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
-	let temp = Math.floor(data.main.temp);
-	let weather = data.weather[0].main;
-	$('.icon').attr('src', icon);
-	$('.weather').append(weather);
-	$('.temperature').append(temp);
-});
