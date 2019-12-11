@@ -17,10 +17,46 @@
 		$(function () {
 			let suggestions =
 				[
-					"Doctor",
+					// generic word suggestions
+					"Assignment",
 					"Appointment",
+					"Arrival",
+					"Clinic",
+					"Doctor",
+					"Departure",
+					"Due",
 					"Homework",
-					"Balagadoo"
+					"Project",
+					"Visit",
+					"On",
+					"PM",
+					"AM",
+					"Spanish",
+					"Italian",
+					"Japanese",
+					"Russian",
+					"English",
+					"Paper",
+					"Movie",
+					"Dentist",
+					"Chores",
+					"Laundry",
+					"Clean",
+					"Room",
+					"Bathroom",
+					"Shopping",
+					"Vacuum",
+					"Grocery",
+					// generic phrases
+					"Assignment due at",
+					"Appointment at",
+					"Doctors visit at",
+					"Clinic visit at",
+					"Test at",
+					"Project due at",
+					"Paper due at",
+					"Final in",
+					"Midterm on",
 				];
 			$("#task").autocomplete({
 				source: suggestions
@@ -33,17 +69,13 @@
 	<div class="weather-container">
 		<img class="icon">
 		<p class="p">Today's weather in Chapel Hill</p>
-		<p class="weather">
-
-		</p>
-		<p class="temperature">
-
-		</p>
+		<p class="weather"></p>
+		<p class="temperature"></p>
 	</div>
 	<header>
 		<h1>Full Weekly Planner</h1>
-		<h2>now complete with stuff</h2>
-		<button onclick="window.location.href='/index.html'">BACK TO LOGIN/SIGNUP</button>
+		<h2>Features added</h2>
+		<button id="backBTN" onclick="window.location.href='/index.html'">BACK TO LOGIN/SIGNUP</button>
 
 		<div id="placer">
 			<div id="user-input">
@@ -85,9 +117,6 @@
 			<h3>Sunday</h3>
 		</div>
 	</main>
-
-
-
 	<script src="fullrender.js"></script>
 </body>
 
