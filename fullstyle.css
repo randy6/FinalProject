@@ -1,0 +1,140 @@
+
+
+*{
+	box-sizing: border-box;
+	font-family: Times New Roman;
+}
+
+body {
+	background: grey;
+}
+#placer {
+	background-color: black;
+}
+#days {
+	display: right;
+}
+#user-input {
+	display: flex;
+	flex-direction: column;
+	float: right;
+}
+
+h1 {
+	text-align: left; 
+	color: #99BADD;	
+	font-size: 40px;
+}
+h2 {
+	text-align: left; 
+	color: white;	
+	font-size: 20px;	
+}
+h4 {
+	text-align: center; 
+	color: white;	
+	font-size: 50px;	
+}
+p1 {
+	text-align: center; 
+	color: white;	
+	font-size: 30px;	
+}
+
+
+input, select {
+	border-radius: 20px;
+	display: block;
+	margin: 0.5rem;
+	width: 250px;
+	padding: 0.5rem;
+	outline: none;
+}
+
+#button1 {
+	width: 250px;
+	height: 250px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background: #99BADD;
+	border: none;
+	outline: none;
+	color: white;
+}
+
+button:hover {
+	box-shadow: 0 0 20px gray;
+}
+#task {
+	width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box
+}
+
+.day {
+	width: auto;
+	min-height: 250px;
+	border: 2px solid #99BADD;
+	margin: auto;
+	background: white;
+  	box-shadow: 2px 2px 2px #333;
+  	display: inline-block;
+}
+
+.day h3 {
+	text-align: center;
+	color: #99BADD;
+	border-bottom: 3px double black;
+	width: 200px;
+	margin: 0.5rem auto;
+}
+
+li {
+	padding-left: 1.5rem;
+	margin: 0.3rem 0;
+	display: inline-block;
+}
+
+#check-box {
+	width: 1rem;
+	height: 1rem;
+	display: inline-block;
+	float: right;
+	margin-right: 1.5rem;
+	margin-left: 0.2rem;
+	margin-bottom: 0;
+}
+
+button {
+	width: 250px;
+	height: 50px;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background: #99BADD;
+	border: none;
+	outline: none;
+	color: black;
+}
+
+.weather-container {
+	background: #ccc;
+	text-align: center;
+}
+.weather {
+	font-size: 22px;
+	margin: 0;
+}
+.temperature {
+	font-size: 60px;
+	margin: 0;
+	font-weight: bold;
+}
+.p {
+	font-size: 22px;
+	margin: 0;
+}
+
