@@ -5,36 +5,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Planner </title>
+	<title> Guest Planner </title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css" />
-	<!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-	<script src="//code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNf0u91ta32o/NMZxltwRo8QtmkMRdAu8="
-	 crossorigin="anonymous"></script>
-	<script>
-		$(function () {
-			let suggestions =
-				[
-					"Doctor",
-					"Appointment",
-					"Homework",
-					"Balagadoo"
-				];
-			$("#task").autocomplete({
-				source: suggestions
-			});
-		});	
-	</script> -->
 </head>
 
 <body>
-
 	<header>
-		<h1>Guest Weekly Planner</h1>
+		<h1>Guest Planner</h1>
 		<h2>Features restricted :(</h2>
-		<button onclick="window.location.href='/index.html'">BACK TO LOGIN/SIGNUP</button>
+
+		<button id="backBTN" onclick="window.location.href='/index.html'">Back to Landing Page</button>
 
 		<div id="placer">
 			<div id="user-input">
@@ -53,6 +34,7 @@
 			</div>
 		</div>
 	</header>
+
 	<main>
 		<div class="day" id="monday">
 			<h3>Monday</h3>
@@ -76,9 +58,6 @@
 			<h3>Sunday</h3>
 		</div>
 	</main>
-
-
-
 	<script src="render.js"></script>
 </body>
 
