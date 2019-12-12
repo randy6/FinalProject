@@ -55,7 +55,8 @@ createForm.addEventListener('submit', (e) => {
   auth.createUserWithEmailAndPassword(email, password).then(cred => {
     return db.collection('users').doc(cred.user.uid).set({
       bio: signupForm['signup-bio'].value,
-      display: signupForm['signup-display'].value
+      display: signupForm['signup-display'].value,
+      task: signupForm['signup-task'].value
     });
   }).then(() => {
     // close the signup modal & reset form
